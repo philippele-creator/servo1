@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="erUr/G1!Pzf6-86w*kIB" x="0" y="0"></block><block type="device_forever" id="xkipU5CJC!V]CE6.vy`?" x="205" y="0"><statement name="HANDLER"><block type="servoservosetangle" id="dA#/?i%t7OCe(%!Tk7$."><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="MjWibOZ}iVa1486LY44F"><field name="angle">0</field></shadow></value><next><block type="device_show_leds" id="AKCU4$6?5G-F};,Kf:`O"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="controls_if" id="!N2y^zhqUis09*GOkKN?"><value name="IF0"><shadow type="logic_boolean" id="7C@x94_`#/29*60^Zo,s"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="r68-ADTzB_-l.5^oc9hR"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="servoservosetangle" id="+cs38hgxWn4XW$j)jws6"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="=xSMm6C0ELL4h]@C#pHg"><field name="angle">45</field></shadow></value><next><block type="device_show_leds" id="5FK%#FCF;0jY|Qll;2}*"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="wG~$wQptxj|pEV=5l3vm"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" id="[to1Zw1wMIxpF79OqGej" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"interpolation\":\"linear\",\"effect\":\"none\",\"wave\":\"sine\",\"startVolume\":255,\"endVolume\":0,\"startFrequency\":200,\"endFrequency\":600,\"duration\":150}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="t}Zg7o!VhE`n%[^1bM2I"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id=",1qvZQCda{zl=aq@mn6$"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">600</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="e2,s`GY*$3GPd-+eiPeJ"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">150</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="9vq$;[CcFSo%tQH{Pj(3"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="cbQCO=gjonB15Usd@bUZ"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></shadow></value><next><block type="device_pause" id="dUW^:]=`_J.@[(3eTjGp"><value name="pause"><shadow type="timePicker" id="5@%YcB07MPX68BVQ)h_c"><field name="ms">5000</field></shadow></value></block></next></block></next></block></next></block></statement></block></next></block></next></block></statement></block><block type="device_show_leds" id="oJ!?POY*M$Ab0k0Oqh(f" disabled-reasons="pxt_automatic_disabled" x="600" y="436"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . # . . 
+        . # . . . 
+        # . . . .
+        `</field></block></xml>
